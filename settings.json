@@ -1,0 +1,11 @@
+"editor.tokenColorCustomizations"{
+    "textMateRules":[
+        {
+            "name": "red",
+            "scope": ["comment.block"]
+            "settings": {
+                "foreground": #ff5f5f
+            }
+        }
+    ]
+}
