@@ -9,33 +9,24 @@
     --prise-color: #999999;
 }
 
-/* видалення стандартної розмітки */
 
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    
-}
-
-h1,h2,h3,h4,p{
-    margin-bottom: 0;
-    margin-top: 0; 
-}
-
-a{text-decoration: none;}
 
 /* абсолютні стилі */
 
-*{
-    font-family: 'Jost', sans-serif;  
+body{
+    font-family: 'Jost', sans-serif; 
+    box-sizing: border-box; 
 }
 
 /* селектори тегу */
 
+.container{
+    width: 1107;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
-
-header{
+.header{
     background-color: var(--header-and-section-bgcolor);
 }
 
@@ -48,7 +39,7 @@ header{
 }
 
 .head-nav{
-    display: flex;
+    
 }
 
 .head-nav-element{
@@ -58,34 +49,33 @@ header{
     padding-right: 64px;
 }
 
-.assurance{
+.header-benefits{
     color: var(--text-color-2);
     font-size: 24px;
     font-weight: 600;
 }
 
-.emphasis{
+.header-line{
     width: 209px;
     height: 3px;
     background: #6278B4;
 }
 
-.Title{
+.header-title{
     color: var(--main-text);
     font-size: 48px;
     font-weight: 700;
-    width: 562px;
+    
 }
 
-.advertising{
+.header-assurance{
     color: var(--main-text);
     font-size: 20px;
     font-weight: 500;
 }
 
-.head-button{
-    width: 242px;
-    height: 62px;
+.header-button{
+    
     border-radius: 30px;
     background: var(--text-color-2);
     color: var(--foot-text-color);
@@ -98,44 +88,50 @@ header{
 
 /* our-services */
 
+.servis{
+
+}
+
+.section-name{
+    color: var(--main-text);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.section-name-span{
+    color: var(--text-color-2);
+    font-size: 48px;
+    font-weight: 600;
+}
+
 .our-servise-card{
     display: inline-block;
     
 }
 
-
-
-.section-desc-span{
-    color: var(--text-color-2);
-    font-size: 48px;
-    font-weight: 600;
-}
-
-.section-desc{
-    color: var(--main-text);
-    font-size: 48px;
-    font-weight: 600;
-}
-
-.section-emphasis{
+.section-line{
     width: 351px;
     height: 4px;
     background: var(--text-color-2);    
 }
 
-.our-servis{
+.servis-list{
+
+}
+
+.servis-card-title{
     color: var(--text-color-2);
     font-size: 24px;
     font-weight: 500;
 }
 
-.our-servis-span{
+.servis-card-span{
     color: var(--main-text);
     font-size: 24px;
     font-weight: 400;
 }
 
-.our-servis-description{
+.servis-card-text{
     width: 229px;
     height: 63px;
     color: var(--main-text);
@@ -143,42 +139,52 @@ header{
     font-weight: 400;
 }
 
-.section-how-we-work{
+.work{
     background-color: var(--header-and-section-bgcolor);
 }
 
-.How-we-work{
+.work-title{
     color: var(--text-color-2);
     font-size: 48px;
     font-weight: 900;
 
 }
 
-.our-sistem{
+.work-text{
     color: var(--main-text);
     font-size: 20px;
     font-weight: 500;
     width: 294px;
 }
 
-
-
-.card-emphasis{
-    color: var(--main-text);
-    width: 224px;
-    height: 4px;
+.corgi-img{
 
 }
 
-.name-workers{
+.specialist-list{
+
+}
+
+.specialist-card{
+
+}
+
+.specialist-card-img{}
+
+.card-line{
+    width: 105px;
+    height: 2px;
+    background: var(--main-text);
+}
+
+.specialist-name{
     color: var(--main-text);
     font-size: 32px;
     font-weight: 600;
 }
 
-.btn{
-    width: 224px;
-    height: 53px;
+.specialist-btn{
+    
     border-radius: 25px;
     background: var(--text-color-2);
     font-size: 24px;
@@ -187,11 +193,11 @@ header{
     color: var(--foot-text-color);
 }
 
-.physical-table-section{
+.pricing{
     background-color: var(--header-and-section-bgcolor);
 }
 
-.card-prising-table{
+.pricing-card{
     background-color: var(--foot-text-color);
     width: 352px;
 }
@@ -204,31 +210,31 @@ header{
     color: var(--foot-text-color);
 }
 
-.prise{
+.price{
     color: var(--prise-color);
     font-size: 64px;
     font-weight: 400;
 }
 
-.prises-span{
+.price-span{
     color: var(--prise-color);
     font-size: 36px;
     font-weight: 400;
 }
 
-.prises{
+.prices{
 color: var(--text-color-2);
 font-size: 64px;
 font-weight: 400;
 }
 
-.prise-span{
+.price-span{
     color: var(--text-color-2);
     font-size: 36px;
     font-weight: 400;
 }
 
-.subtitle{
+.price-subtitle{
     color: var(--prise-color);
     font-size: 16px;
     font-weight: 500;
@@ -240,13 +246,13 @@ font-weight: 400;
     font-weight: 600;
 }
 
-.card-emphasis{
+.price-card-line{
     width: 105px;
     height: 2px;
     background: var(--main-text);
-}
+} 
 
-.card-button{
+.price-card-button{
     width: 160px;
     height: 50px;
     background: #6278B4;
