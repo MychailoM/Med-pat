@@ -92,7 +92,8 @@ body{
 /* our-services */
 
 .servis{
-
+    padding-top: 24px;
+    padding-bottom: 54px;
 }
 
 .section-name{
@@ -116,7 +117,9 @@ body{
 .section-line{
     width: 351px;
     height: 4px;
-    background: var(--text-color-2);    
+    background: var(--text-color-2); 
+    margin-bottom: 53px;
+
 }
 
 .servis-list{
@@ -127,6 +130,7 @@ body{
     color: var(--text-color-2);
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 25px;
 }
 
 .servis-card-span{
@@ -145,6 +149,8 @@ body{
 
 .work{
     background-color: var(--header-and-section-bgcolor);
+    padding-top: 100px;
+    padding-bottom: 32px;
 }
 
 .work-title{
@@ -163,6 +169,11 @@ body{
 
 .corgi-img{
 
+}
+
+.specialist{
+    padding-top: 32px;
+    padding-bottom: 64px;
 }
 
 .specialist-list{
