@@ -41,6 +41,10 @@ body{
     
 }
 
+.header-nav-list{
+    display: flex;
+}
+
 .head-nav{
     
 }
@@ -123,7 +127,7 @@ body{
 }
 
 .servis-list{
-
+    display: flex;
 }
 
 .servis-card-title{
@@ -177,7 +181,7 @@ body{
 }
 
 .specialist-list{
-
+    display: flex;
 }
 
 .specialist-card{
@@ -210,6 +214,10 @@ body{
 
 .pricing{
     background-color: var(--header-and-section-bgcolor);
+}
+
+.pricing-list{
+    display: flex;
 }
 
 .pricing-card{
