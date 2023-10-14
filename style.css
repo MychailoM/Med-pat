@@ -74,6 +74,12 @@ body{
     margin-top: 90px;
 }
 
+.benefits-wrap{
+    display: flex;
+    align-items: center;
+    
+}
+
 .header-benefits{
     color: var(--text-color-2);
     font-size: 24px;
@@ -84,6 +90,7 @@ body{
     width: 209px;
     height: 3px;
     background: #6278B4;
+    margin-left: 11px;
 }
 
 .header-title{
@@ -151,11 +158,18 @@ body{
     height: 4px;
     background: var(--text-color-2); 
     margin-bottom: 53px;
-
+    margin: 0 auto;
 }
 
 .servis-list{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.servis-title-img{
+    width: 50px;
+    height: 50px;
 }
 
 .servis-card-title{
@@ -219,7 +233,7 @@ body{
 .specialist-card-img{}
 
 .card-line{
-    width: 105px;
+    width: 224px;
     height: 2px;
     background: var(--main-text);
 }
