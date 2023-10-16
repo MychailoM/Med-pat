@@ -1,9 +1,9 @@
 /* змінні */
-:root{
-    --text-color-2:#6278B4;
-    --main-text:#3A2E2E;
-    --foot-text-color:#FFF;
-    --add-information-color:#686868;
+:root {
+    --text-color-2: #6278B4;
+    --main-text: #3A2E2E;
+    --foot-text-color: #FFF;
+    --add-information-color: #686868;
     --header-and-section-bgcolor: #DDF9FF;
     --footer-bg-color: #535353;
     --prise-color: #999999;
@@ -13,14 +13,14 @@
 
 /* абсолютні стилі */
 
-body{
-    font-family: 'Jost', sans-serif; 
-    box-sizing: border-box; 
+body {
+    font-family: 'Jost', sans-serif;
+    box-sizing: border-box;
 }
 
 
 
-.container{
+.container {
     width: 1107px;
     margin: 0 auto;
     padding: 0 15px;
@@ -29,89 +29,87 @@ body{
 
 /* селектори класу */
 /* header */
-.header{
+.header {
     background-color: var(--header-and-section-bgcolor);
     padding-top: 35px;
     padding-bottom: 48px;
 }
 
-.nav-wrap{
+.nav-wrap {
     display: flex;
     align-items: center;
 }
 
-.logo-wrap{
+.logo-wrap {
     display: flex;
     align-items: center;
 }
 
-.sitename{
+.sitename {
     color: var(--text-color-2);
     font-size: 36px;
     font-weight: 700;
-    
+
 }
 
-.header-nav-list{
+.header-nav-list {
     display: flex;
     width: 717px;
     margin-left: 193px;
 }
 
-.head-nav{
-    
-}
+.head-nav {}
 
-.head-nav-element{
+.head-nav-element {
     color: var(--main-text);
     font-size: 24px;
     font-weight: 700;
     padding-right: 64px;
 }
 
-.header-content-wrap{
+.header-content-wrap {
     display: flex;
     margin-top: 90px;
 }
 
-.benefits-wrap{
+.benefits-wrap {
     display: flex;
     align-items: center;
-    
+
 }
 
-.header-benefits{
+.header-benefits {
     color: var(--text-color-2);
     font-size: 24px;
     font-weight: 600;
 }
 
-.header-line{
+.header-line {
     width: 209px;
     height: 3px;
     background: #6278B4;
     margin-left: 11px;
 }
 
-.header-title{
+.header-title {
     color: var(--main-text);
     font-size: 48px;
     font-weight: 700;
     width: 562px;
 }
 
-.header-assurance{
+.header-assurance {
     color: var(--main-text);
     font-size: 20px;
     font-weight: 500;
     line-height: 30.6px;
 }
 
-.header-btn-wrap{
+.header-btn-wrap {
     margin-top: 32px;
 }
 
-.header-button{
+.header-button {
     padding: 16px 21px;
     border-radius: 30px;
     background: var(--text-color-2);
@@ -121,7 +119,7 @@ body{
     border: none;
 }
 
-.beagle{
+.beagle {
     width: 572.94px;
     height: 448px;
 }
@@ -130,122 +128,153 @@ body{
 
 /* our-services */
 
-.servis{
+.servis {
     padding-top: 24px;
     padding-bottom: 54px;
 }
 
-.section-name{
+.section-name {
     color: var(--main-text);
     font-size: 48px;
     font-weight: 600;
     text-align: center;
+    margin-bottom: 18px;
 }
 
-.section-name-span{
+.section-name-span {
     color: var(--text-color-2);
     font-size: 48px;
     font-weight: 600;
 }
 
-.our-servise-card{
-    display: inline-block;
-    
+.servise-card {
+    width: 30%;
+    display: flex;
 }
 
-.section-line{
+.servis-title-photo{
+    width: 49px;
+    height: 49px;
+    margin-right: 15px;
+}
+
+.servis-text-wrap{
+
+}
+
+.section-line {
     width: 351px;
     height: 4px;
-    background: var(--text-color-2); 
-    margin-bottom: 53px;
+    background: var(--text-color-2);
     margin: 0 auto;
+
 }
 
-.servis-list{
+.servis-list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;    
+    gap: 35px;
+    align-items: center;
+    margin-top: 47px;
 }
 
-.servis-title-img{
+.servis-title-img {
     width: 50px;
     height: 50px;
 }
 
-.servis-card-title{
+.servis-card-title {
     color: var(--text-color-2);
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 25px;
 }
 
-.servis-card-span{
+.servis-card-span {
     color: var(--main-text);
     font-size: 24px;
     font-weight: 400;
 }
 
-.servis-card-text{
+.servis-card-text {
     width: 229px;
     height: 63px;
     color: var(--main-text);
     font-size: 14px;
     font-weight: 400;
+    line-height: 21.42px;
 }
 
-.work{
+.work {
     background-color: var(--header-and-section-bgcolor);
     padding-top: 100px;
     padding-bottom: 32px;
 }
 
-.work-title{
+.work-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.work-title {
     color: var(--text-color-2);
     font-size: 48px;
     font-weight: 900;
-
+    margin-bottom: 28px;
 }
 
-.work-text{
+.work-text {
     color: var(--main-text);
     font-size: 20px;
     font-weight: 500;
     width: 294px;
+    line-height: normal;
 }
 
-.corgi-img{
+.corgi-img {}
 
-}
-
-.specialist{
+.specialist {
     padding-top: 32px;
     padding-bottom: 64px;
 }
 
-.specialist-list{
+.specialist-list {
+    margin-top: 40px;
     display: flex;
+    justify-content: space-between;
 }
 
-.specialist-card{
+.specialist-card {}
 
+.specialist-card-img {
+    margin-bottom: 32px;
 }
 
-.specialist-card-img{}
-
-.card-line{
+.card-line {
     width: 224px;
-    height: 2px;
+    height: 4px;
     background: var(--main-text);
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 32px;
 }
 
-.specialist-name{
+.specialist-name {
     color: var(--main-text);
     font-size: 32px;
     font-weight: 600;
+    text-align: center;
 }
 
-.specialist-btn{
-    
+.specialist-btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.specialist-btn {
+    padding: 9px 28px;
     border-radius: 25px;
     background: var(--text-color-2);
     font-size: 24px;
@@ -254,70 +283,96 @@ body{
     color: var(--foot-text-color);
 }
 
-.pricing{
+.pricing {
     background-color: var(--header-and-section-bgcolor);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
-.pricing-list{
+.pricing-list {
+    margin-top: 44px;
     display: flex;
+    justify-content: space-between;
 }
 
-.pricing-card{
+.pricing-card {
     background-color: var(--foot-text-color);
     width: 352px;
+    padding-bottom: 32px;
+    
 }
 
-.services{
+.pricing-tytle-wrap {}
+
+.services {
     background-color: var(--text-color-2);
     font-size: 32px;
     font-weight: 400;
     width: 352px;
     color: var(--foot-text-color);
+    text-align: center;
+    padding: 17px 0;
 }
 
-.price{
+.price {
     color: var(--prise-color);
     font-size: 64px;
     font-weight: 400;
+    text-align: center;
+    padding-top: 32px;
 }
 
-.price-span{
+.price-span {
     color: var(--prise-color);
     font-size: 36px;
     font-weight: 400;
 }
 
-.prices{
-color: var(--text-color-2);
-font-size: 64px;
-font-weight: 400;
+.prices {
+    color: var(--text-color-2);
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 32px;
 }
 
-.price-span{
+.prise-span {
     color: var(--text-color-2);
     font-size: 36px;
     font-weight: 400;
 }
 
-.price-subtitle{
+.price-subtitle {
     color: var(--prise-color);
     font-size: 16px;
     font-weight: 500;
+    text-align: center;
+    margin-bottom: 32px;
 }
 
-.reception-plan{
+.reception-plan {
     color: var(--main-text);
     font-size: 16px;
     font-weight: 600;
+    text-align: center;
+    margin-bottom: 16px;
 }
 
-.price-card-line{
+.price-card-line {
     width: 105px;
     height: 2px;
     background: var(--main-text);
-} 
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
 
-.price-card-button{
+.pricing-btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+}
+
+.price-card-button {
     width: 160px;
     height: 50px;
     background: #6278B4;
@@ -326,14 +381,3 @@ font-weight: 400;
     font-weight: 400;
     color: var(--foot-text-color);
 }
-
-
-
-
-
-
-
-
-
-
-
